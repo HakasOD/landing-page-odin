@@ -6,7 +6,8 @@
 
 .content-container {
     width: 1000px;
-    max-width: 1000px;
+    
+    /* max-width: 1000px; */
     
     /* padding: 0px 24px;  /* Not working */
 }
@@ -24,6 +25,13 @@ p {
     margin: 8px 0;
 }
 
+button {
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
 /* Hero */
 .nav-bar {
     display: flex;
@@ -31,6 +39,7 @@ p {
     padding-bottom: 16px;
     font-size: 24px;
     color: #f9faf8;
+    margin-top: 16px;
     margin-bottom: 50px;
     font-weight:bolder;
     flex-grow: 0;
@@ -43,6 +52,8 @@ p {
     justify-content: center;
     align-items: center;
     padding-bottom: 80px;
+    padding-left: 48px;
+    padding-right: 48px;
 }
 
 .hero .links {
@@ -59,7 +70,9 @@ p {
 
 .hero .container {
     display: flex;
+
 }
+
 
 .hero .info {
     margin-right: 16px;
@@ -69,15 +82,12 @@ p {
 .hero .container button{
     color:#f9faf8;
     background-color: #3882f6;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    padding: 8px 16px;
 }
 
 .hero img {
-    height: 200px;
-    width: 600px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     border: 10px solid gray;
     
 }
@@ -134,9 +144,58 @@ p {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    padding: 0 48px;
 }
 
 .quote-author {
     font-weight: bold;
     text-align: right;
+    font-size: x-large;
+    padding-right: 88px;
+}
+
+/* Call to action */
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+
+    padding: 85px 40px;
+
+}
+
+.call-to-action-section .content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action {
+    display: flex;
+    padding: 24px 88px;
+    border-radius: 8px;
+    justify-content: space-between;
+    background-color: #3882f6;
+    flex: 1;
+    color: white;
+    
+}
+
+.call-to-action button {
+    align-self: center;
+    flex-basis: 120px;
+    color: white;
+    background-color: #3882f6;
+    border: solid 2px white;
+}
+
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: white;
+    background-color: #1f2937;
+
+    
 }
