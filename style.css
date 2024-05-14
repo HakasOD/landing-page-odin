@@ -98,6 +98,10 @@ button {
     font-weight: bolder;
 }
 
+.hero .image {
+    flex-shrink: 0.5;
+    height: auto;
+}
 
 
 /* Information section */
